@@ -1,10 +1,10 @@
 class AlarmClock {
   constructor() {
-    this.alarmCollection = []; // Коллекция звонков
-    this.intervalId = null; // ID интервала
+    this.alarmCollection = []; 
+    this.intervalId = null; 
   }
 
-  // Добавление нового звонка
+
   addClock(time, callback) {
     if (!time || !callback) {
       throw new Error("Отсутствуют обязательные аргументы");
